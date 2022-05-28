@@ -102,4 +102,3 @@ const sym = Symbol('symbol');
 myEE.on(sym, () => {});
 
 console.log(myEE.eventNames()); //[ 'foo', 'bar', Symbol(symbol) ]
-
